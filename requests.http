@@ -1,0 +1,71 @@
+
+GET http://127.0.0.1:8000/cats/
+
+###
+
+GET http://127.0.0.1:8000/owners/
+
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+     "id": 1,
+     "name": "tutut",
+     "color": "White",
+     "birth_year": 2001,
+     "owner": 1
+}
+###
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+     "id": 1,
+     "name": "Sierra",
+     "color": "White",
+     "birth_year": 1988,
+     "owner": 1
+} 
+
+### 
+
+POST http://127.0.0.1:8000/cats/
+Content-Type: application/json
+
+{
+     "id": 1,
+     "name": "harry",
+     "color": "White",
+     "birth_year": 1992,
+     "owner": 3
+} 
+###
+
+POST http://127.0.0.1:8000/owners/
+Content-Type: application/json
+
+{
+     "first_name": "Oleg",
+     "last_name": "greyz"
+} 
+###
+
+POST http://127.0.0.1:8000/owners/
+Content-Type: application/json
+
+{
+     "first_name": "Lionell",
+     "last_name": "White"
+} 
+###
+
+POST http://127.0.0.1:8000/owners/
+Content-Type: application/json
+
+{
+     "first_name": "Mbape",
+     "last_name": "Black"
+} 
